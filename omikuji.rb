@@ -16,7 +16,7 @@ puts <<-EOT
 while 1 do
   case gets.chomp
   when ""
-    puts "🎰", lott.sample
+    puts ["🎰", lott.sample].join
   when "n"
     puts "またねー！"
     exit 1
