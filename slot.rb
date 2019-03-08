@@ -22,7 +22,7 @@ view_thread = Thread.new do
     print "\033[2K\r#{scene[i]}"
     i+=1
 
-    sleep 0.02
+    sleep 0.3
   end
 end
 
