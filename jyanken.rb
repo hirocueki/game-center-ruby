@@ -1,0 +1,3 @@
+hand = ["👊","✌️","🖐"]
+
+puts hand.sample
